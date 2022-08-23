@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  color: azure;
+  width: 1380px;
+  height: 85px;
+  animation: color 20s infinite;
+  font: 20px Macan, "Halvetica Neue";
+
+  /*flex-direction: row;*/
+  justify-content: flex-end;
+  /*justify-content: space-around;*/
+}
+
+@keyframes color {
+  0% {
+    background: green;
+  }
+  20% {
+    background: brown;
+  }
+  40% {
+    background: palevioletred;
+  }
+  100% {
+    background: green;
+  }
+}
+.fa fa-globe {
+  font-size: 35px;
+}
+.rupee {
+  font-size: 20px;
+}
+.space {
+  padding-top: 34px;
+  padding-right: 24px;
+  font-weight: bold;
+}
+#business {
+  margin-left: 6px;
+}
+.join {
+  width: 50px;
+  height: 30px;
+  margin-top: 30px;
+  background-color: palevioletred;
+  border: white;
+  color: bisque;
+  border-radius: 2px;
+}
+button:hover {
+  background-color: green;
+}
+#in {
+  margin-left: 5px;
+}
+#inr {
+  margin-left: 5px;
+}
+#genVlogo {
+  width: 75px;
+  height: 34px;
+  margin-right: 560px;
+  margin-top: 28px;
+}
